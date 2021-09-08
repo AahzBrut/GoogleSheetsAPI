@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3b80a3808a84c59b884b074322ac9f3, type: 3}
+  m_Name: GridLevelDatabase
+  m_EditorClassIdentifier: 
+  data:
+  - id: 1
+    gridId: MainGrid
+    level: 1
+    cellCoord: {x: 0, y: 0}
+  - id: 2
+    gridId: MainGrid
+    level: 2
+    cellCoord: {x: 1, y: 0}
+  - id: 3
+    gridId: MainGrid
+    level: 3
+    cellCoord: {x: 0, y: 1}
+  - id: 4
+    gridId: MainGrid
+    level: 4
+    cellCoord: {x: 1, y: 1}
+  - id: 5
+    gridId: MainGrid
+    level: 5
+    cellCoord: {x: 2, y: 0}
+  - id: 6
+    gridId: MainGrid
+    level: 6
+    cellCoord: {x: 2, y: 2}
+  - id: 7
+    gridId: MainGrid
+    level: 7
+    cellCoord: {x: 0, y: 0}
+  - id: 8
+    gridId: MainGrid
+    level: 8
+    cellCoord: {x: 0, y: 0}
+  - id: 9
+    gridId: MainGrid
+    level: 9
+    cellCoord: {x: 0, y: 0}
+  - id: 10
+    gridId: MainGrid
+    level: 10
+    cellCoord: {x: 0, y: 0}
+  index:
+    list:
+    - key: MainGrid
+      value:
+        list:
+        - key: 1
+          value:
+            id: 1
+            gridId: MainGrid
+            level: 1
+            cellCoord: {x: 0, y: 0}
+        - key: 2
+          value:
+            id: 2
+            gridId: MainGrid
+            level: 2
+            cellCoord: {x: 1, y: 0}
+        - key: 3
+          value:
+            id: 3
+            gridId: MainGrid
+            level: 3
+            cellCoord: {x: 0, y: 1}
+        - key: 4
+          value:
+            id: 4
+            gridId: MainGrid
+            level: 4
+            cellCoord: {x: 1, y: 1}
+        - key: 5
+          value:
+            id: 5
+            gridId: MainGrid
+            level: 5
+            cellCoord: {x: 2, y: 0}
+        - key: 6
+          value:
+            id: 6
+            gridId: MainGrid
+            level: 6
+            cellCoord: {x: 2, y: 2}
+        - key: 7
+          value:
+            id: 7
+            gridId: MainGrid
+            level: 7
+            cellCoord: {x: 0, y: 0}
+        - key: 8
+          value:
+            id: 8
+            gridId: MainGrid
+            level: 8
+            cellCoord: {x: 0, y: 0}
+        - key: 9
+          value:
+            id: 9
+            gridId: MainGrid
+            level: 9
+            cellCoord: {x: 0, y: 0}
+        - key: 10
+          value:
+            id: 10
+            gridId: MainGrid
+            level: 10
+            cellCoord: {x: 0, y: 0}
