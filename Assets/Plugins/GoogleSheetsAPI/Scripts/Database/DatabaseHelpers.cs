@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using GoogleSheetsAPI.Domain;
-using GoogleSheetsAPI.Utils;
 using UnityEngine;
 
 namespace GoogleSheetsAPI.Database
@@ -40,7 +39,7 @@ namespace GoogleSheetsAPI.Database
             var result = new List<string>();
             foreach (var element in data.Split(sep))
             {
-                if (!element.Trim().IsEmpty())
+                if (element.Trim() != string.Empty)
                 {
                     result.Add(element.Trim());
                 }

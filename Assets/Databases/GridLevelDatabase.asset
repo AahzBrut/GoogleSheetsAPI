@@ -40,7 +40,7 @@ MonoBehaviour:
   - id: 7
     gridId: MainGrid
     level: 7
-    cellCoord: {x: 0, y: 0}
+    cellCoord: {x: 3, y: 0}
   - id: 8
     gridId: MainGrid
     level: 8
@@ -99,7 +99,7 @@ MonoBehaviour:
             id: 7
             gridId: MainGrid
             level: 7
-            cellCoord: {x: 0, y: 0}
+            cellCoord: {x: 3, y: 0}
         - key: 8
           value:
             id: 8

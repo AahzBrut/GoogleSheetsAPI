@@ -12,6 +12,7 @@ namespace Game.Databases
     {
         [HideInInspector] public HashMap<string, HashMap<int, GridLevel>> index = new HashMap<string, HashMap<int, GridLevel>>();
 
+        public override string AssociatedSheet => "1ouhJ3FYE8pfKD2we2LTrRA908t9IbcELPwcn4-EKslI";
         public override string AssociatedWorksheet => "GridLevel";
         
         public override void UpdateDatabase(GoogleSpreadSheet spreadSheet)
@@ -22,6 +23,8 @@ namespace Game.Databases
 
         private void PopulateIndex()
         {
+            index.Clear();
+            
             foreach (var row in data)
             {
                 if (!index.ContainsKey(row.gridId)) index[row.gridId] = new HashMap<int, GridLevel>();

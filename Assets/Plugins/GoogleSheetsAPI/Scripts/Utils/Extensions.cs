@@ -8,7 +8,7 @@ namespace GoogleSheetsAPI.Utils
         public static GoogleSpreadSheet ToSpreadSheet(this GoogleSheetsResponse response)
         {
             var result = new GoogleSpreadSheet();
-            if (response.values.IsEmpty()) return result;
+            if (response.values.Count == 0) return result;
 
             var columnsRow = response.values[0];
             var columnIndex = new Dictionary<int, Column>();
